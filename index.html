@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Fábrica</title>
+    <link rel="stylesheet" href="Styles/styles.css">
+</head>
+<body>
+<h1>Simulador de Fábrica: Matriz de Transición</h1>
+<div id="states">
+    <div id="state0" class="state">Estado 0: Ambas operativas</div>
+    <div id="state1" class="state">Estado 1: Una en reparación (1 día)</div>
+    <div id="state2" class="state">Estado 2: Una acaba de averiarse</div>
+    <div id="state3" class="state">Estado 3: Una en reparación (1 día), otra averiada</div>
+</div>
+<button id="start">Iniciar Simulación</button>
+<p>Estado actual: <span id="currentState">0</span></p>
+<script src="Scripts/script.js"></script>
+</body>
+</html>

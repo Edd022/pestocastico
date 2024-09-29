@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.state {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+    background-color: #e0e0e0;
+}
+
+#state0 { background-color: lightgreen; }
+#state1 { background-color: yellow; }
+#state2 { background-color: orange; }
+#state3 { background-color: red; }
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#currentState {
+    font-weight: bold;
+    font-size: 20px;
+}
